@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  python_app:
+    build: ./python_app
+    volumes:
+      - ./python_app/src:/scraping
+    tty: true
